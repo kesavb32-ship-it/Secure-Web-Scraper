@@ -24,28 +24,32 @@
 python scraper.py
 ```
 
-Sample Input:
+## Input:
 
+```bash
 https://en.wikipedia.org/wiki/Scrapy
 https://www.geeksforgeeks.org/websites-apps/history-of-internet/
+```
+## Output:
 
-Sample Output:
-
+```bash
 Scraping is NOT allowed on https://en.wikipedia.org/wiki/Scrapy
 Scraping is ALLOWED on https://www.geeksforgeeks.org/websites-apps/history-of-internet/
+```
 
-Results Summary
+## Results Summary
 
 - Sites which limit access using robots.xt are not scraped.
 - Sites that are allowed are processed and data is extracted with success.
 
-Key Learnings
+## Key Learnings
 
 - Significance of ethical scraping and permission checks.
 - BeautifulSoup in practice to HTML parsing.
 - Safe processing of web requests in Python.
 
-Future Enhancements
+## Future Enhancements
+
 - Record mined information either in CSV or database.
 - Include error correction and logging.
 - Rate limiting and multi-page scraping.
